@@ -14,3 +14,8 @@ body {
   input {
     width: 100px;
   }
+
+  img {
+    max-width: 750px;
+    height: auto;
+  }
