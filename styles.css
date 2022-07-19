@@ -1,5 +1,6 @@
 :root {
   --base: #ffc600;
+  --bg: #227c9d;
   --spacing: 10px;
   --blur: 0px;
   --size: 750px;
@@ -7,7 +8,7 @@
 
 body {
     text-align: center;
-    background: #227c9d;
+    background: var(--bg);
     color: white;
     font-family: 'helvetica neue', sans-serif;
     font-weight: 100;
@@ -16,10 +17,15 @@ body {
 
   .controls {
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   input {
     width: 100px;
+    margin: 0 10px;
   }
 
   img {
