@@ -2,6 +2,7 @@
   --base: #ffc600;
   --spacing: 10px;
   --blur: 0px;
+  --size: 750px;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
   }
 
   img {
-    max-width: 750px;
+    width: var(--size);
     height: auto;
     padding: var(--spacing);
     background: var(--base);
